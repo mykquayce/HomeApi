@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <EnablePreviewFeatures>true</EnablePreviewFeatures>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Helpers.GlobalCache" Version="1.5.0" />
+    <PackageReference Include="Helpers.Identity" Version="1.0.2" />
+    <PackageReference Include="Helpers.NetworkDiscoveryApi.Models" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomeApi.Models\HomeApi.Models.csproj" />
+  </ItemGroup>
+
+</Project>
